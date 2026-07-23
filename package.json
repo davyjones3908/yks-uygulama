@@ -1,0 +1,41 @@
+{
+  "name": "yks-uygulama",
+  "version": "0.1.0",
+  "description": "YKS hazırlığı için mobil/web uygulama",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "build": "echo \"Build script coming soon\"",
+    "test": "echo \"Test script coming soon\"",
+    "lint": "eslint src/ --ext .js,.jsx",
+    "format": "prettier --write \"src/**/*.{js,jsx,json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{js,jsx,json,md}\""
+  },
+  "keywords": [
+    "yks",
+    "exam",
+    "study",
+    "education",
+    "application"
+  ],
+  "author": "YKS Uygulama Ekibi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "prettier": "^2.8.8",
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
