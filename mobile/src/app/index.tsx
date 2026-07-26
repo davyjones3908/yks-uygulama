@@ -23,7 +23,7 @@ export default function HomeScreen() {
         <HomeHeader />
         <DailyPlanCard />
         <FeatureCard
-          accentColor={theme.green}
+          accentColor={theme.neonGreen}
           iconName="layers"
           title="Bilgi Kartları"
           description="12 Ders • 840+ Kart"
